@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var collectionView: UICollectionView! {
         didSet {
             collectionView.dataSource = self
@@ -37,8 +37,7 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? CustomCellCollectionViewCell else { return UICollectionViewCell() }
-
-       
+        
         cell.layer.cornerRadius = cell.frame.width / 2
         cell.clipsToBounds = true
         cell.numberLabel.text = String(numbers[indexPath.item])
@@ -46,9 +45,6 @@ extension ViewController: UICollectionViewDataSource {
         return cell
     }
 }
-
-
-
 
 //MARK: UICollectionViewDelegate
 extension ViewController: UICollectionViewDelegate {
@@ -59,7 +55,7 @@ extension ViewController: UICollectionViewDelegate {
         UIView.animate(withDuration: 0.4, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.8, options: .curveEaseOut, animations: {
             cell.transform = .identity
         }, completion: nil)
-
+        
     }
 }
 
