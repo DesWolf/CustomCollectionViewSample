@@ -65,12 +65,12 @@ class CustomCollectionViewLayout: UICollectionViewLayout {
         firstRadius = secondRadius
         secondRadius *= 0.9
         
-        column = column == 0 ? (column = 1) : 0
-//        if column == 0{
-//            column = 1
-//        } else {
-//            column = 0
-//        }
+
+        if column == 0{
+            column = 1
+        } else {
+            column = 0
+        }
         }
     }
     
