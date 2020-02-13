@@ -9,3 +9,5 @@
 import Foundation
 
 // тестовоый фай для практики с merge
+// ещееееееfdfsdfsdfsdfsd
+let  a = 1
