@@ -15,6 +15,7 @@
 		9E12116D23F2D3A300673785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E12116B23F2D3A300673785 /* LaunchScreen.storyboard */; };
 		9E12117723F2D56E00673785 /* CustomCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E12117623F2D56E00673785 /* CustomCollectionViewLayout.swift */; };
 		9E12117923F2D5A900673785 /* CustomCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E12117823F2D5A900673785 /* CustomCellCollectionViewCell.swift */; };
+		9EFC69D823F5369100ECF0AB /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC69D723F5369100ECF0AB /* Sample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9E12116E23F2D3A300673785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E12117623F2D56E00673785 /* CustomCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewLayout.swift; sourceTree = "<group>"; };
 		9E12117823F2D5A900673785 /* CustomCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		9EFC69D723F5369100ECF0AB /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9E12116023F2D3A000673785 /* AppDelegate.swift */,
 				9E12116223F2D3A000673785 /* SceneDelegate.swift */,
 				9E12117623F2D56E00673785 /* CustomCollectionViewLayout.swift */,
+				9EFC69D723F5369100ECF0AB /* Sample.swift */,
 				9E12117823F2D5A900673785 /* CustomCellCollectionViewCell.swift */,
 				9E12116423F2D3A000673785 /* ViewController.swift */,
 				9E12116623F2D3A000673785 /* Main.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E12116523F2D3A000673785 /* ViewController.swift in Sources */,
+				9EFC69D823F5369100ECF0AB /* Sample.swift in Sources */,
 				9E12117923F2D5A900673785 /* CustomCellCollectionViewCell.swift in Sources */,
 				9E12116123F2D3A000673785 /* AppDelegate.swift in Sources */,
 				9E12117723F2D56E00673785 /* CustomCollectionViewLayout.swift in Sources */,

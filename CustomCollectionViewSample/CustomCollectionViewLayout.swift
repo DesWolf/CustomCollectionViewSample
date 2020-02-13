@@ -9,7 +9,7 @@
 import UIKit
 
 class CustomCollectionViewLayout: UICollectionViewLayout {
-    
+  
     fileprivate var cache = [UICollectionViewLayoutAttributes]()
     
     //Content size
